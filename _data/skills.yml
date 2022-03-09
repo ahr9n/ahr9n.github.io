@@ -1,0 +1,24 @@
+languages:
+  - item: C++
+  - item: Python
+  - item: Java
+  - item: JavaScript
+  - item: HTML
+  - item: CSS/SASS
+  - item: SQL
+  - item: TypeScript
+
+frameworks:
+  - item: Django
+  - item: React
+  - item: React Native
+  - item: Node.js
+
+tools:
+  - item: Bash
+  - item: Git & Github
+
+calligraphy:
+  - item: Sketch
+  - item: My Awesome Qalam
+  - item: My Awesome Hand
