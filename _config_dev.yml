@@ -1,0 +1,43 @@
+# Site settings
+name: Ahmad Abdulrahman
+title: Ahmad Abdulrahman | Software Engineer
+description: A software engineer focused on building awesome stuff
+url: https://ahr9n.github.io/
+baseurl: ''
+email: ah.abdulrahmaan@gmail.com
+cover: https://ahr9n.github.io/img/og.png
+logo: https://ahr9n.github.io/img/emojis/technologist.png
+resume: https://ahr9n.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:ah.abdulrahmaan@gmail.com
+  - title: twitter
+    url: https://twitter.com/iahr9n
+  - title: instagram
+    url: https://instagram.com/ahr9n
+  - title: github
+    url: https://github.com/ahr9n
+  - title: linkedin
+    url: https://www.linkedin.com/in/ahmad-abdulrahmaan
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

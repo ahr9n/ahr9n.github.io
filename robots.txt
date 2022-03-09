@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ahr9n.github.io/sitemap.xml

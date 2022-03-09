@@ -1,0 +1,28 @@
+{
+  "name": "ahr9n.com",
+  "version": "0.0.0",
+  "description": "A software engineer focused on building awesome stuff",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahr9n/ahr9n.github.io"
+  },
+  "homepage": "https://github.com/ahr9n/ahr9n.github.io",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve --watch",
+    "build": "gulp build"
+  },
+  "author": "Ahmad Abdulrahman",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuscout/eslint-config": "^0.2.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-imagemin": "6.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "3.0.2"
+  }
+}
