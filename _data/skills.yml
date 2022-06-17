@@ -6,17 +6,18 @@ languages:
   - item: HTML
   - item: CSS/SASS
   - item: SQL
-  - item: TypeScript
+  - item: PostgreSQL
 
 frameworks:
   - item: Django
   - item: React
   - item: React Native
-  - item: Node.js
 
 tools:
   - item: Bash
   - item: Git & Github
+  - item: Linux
+  - item: Design Patterns
 
 calligraphy:
   - item: Sketch
