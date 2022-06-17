@@ -21,7 +21,7 @@
     - thing: React
     - thing: HTML/CSS
 
-- name: Personal Website (Jekyll, Handlebars, SCSS, JavaScript, and Github Pages)
+- name: Personal Website
   url: https://ahr9n.github.io
   code: https://github.com/ahr9n/ahr9n.github.io
   description: My personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
@@ -32,14 +32,14 @@
     - thing: JavaScript
     - thing: Github Pages
     
-- name: PSolving Paradigms (C++)
+- name: PSolving Paradigms
   url: https://github.com/ahr9n/psolving-paradigms
   code: https://github.com/ahr9n/psolving-paradigms
   description: Common problems of dynamic programming methods and techniques, including prerequisites, for competitive programmers.
   used:
     - thing: C++
     
-- name: In The Queue, Please! (Java, JavaFX, and CSS)
+- name: In The Queue, Please!
   url: https://github.com/ahr9n/in-the-queue-please
   code: https://github.com/ahr9n/in-the-queue-please
   description: Implementing the Deterministic and Stochastic Models in Queuing Theory, including graph result (if exists for a model).
@@ -48,7 +48,7 @@
     - thing: JavaFX
     - thing: CSS
     
-- name: Unbeatable Tic-Tac-Toe (JavaScript, and HTML/CSS)
+- name: Unbeatable Tic-Tac-Toe
   url: https://ahr9n.github.io/unbeatable-tic-tac-toe
   code: https://github.com/ahr9n/unbeatable-tic-tac-toe
   description: Unbeatable Tic-Tac-Toe game, using a reliable Artificial Intelligence (minimax algorithm and alpha-beta pruning).
@@ -56,14 +56,14 @@
     - thing: JavaScript
     - thing: HTML/CSS
 
-- name: Electrical Network Analyzer (Python3 (numpy))
+- name: Electrical Network Analyzer
   url: https://github.com/ahr9n/electrical-network-analyzer
   code: https://github.com/ahr9n/electrical-network-analyzer
   description: A simple electrical network analyzer, BASED ON computer-aided design.
   used:
     - thing: Python3 (numpy)
 
-- name: Notify Me! (JavaScript, and HTML/CSS)
+- name: Notify Me!
   url: https://github.com/ahr9n/notify-me
   code: https://github.com/ahr9n/notify-me
   description: A web browser extension which notifies contestants when there are announcements on VJudge.net running contests, instead of wasting time reloading pages and looking for them periodically.
