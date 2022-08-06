@@ -1,5 +1,5 @@
 # Presonal Website
-My personal website. 
+My personal website. It is built on top of [Brittany Chiang's template](https://github.com/bchiang7/bchiang7.github.io).
 
 ## Overview
 Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap. 
