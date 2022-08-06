@@ -1,13 +1,15 @@
-- name: Ask The Holy Quran
-  url: 
-  code: 
+- name: Quranic Search
+  url: https://github.com/ahr9n/quranic-search-v2
+  code: https://github.com/ahr9n/quranic-search-v2
   description: 
-    - Developed a sentence embedding using several methods, based on pre-trained Word2Vec models.
-    - Implemented a RESTful API that allows users to search semantically or lexically in the Holy Quran, by a query of one or more words.
+    - Developed a sentence embedding model using set of methods, based on pre-trained Word2Vec/KeyedVectors models.
+    - Implemented RESTful APIs that allow users to search semantically or lexically in the Holy Quran, by a query of one or more words.
+    - Designed the user interface to search, display results, read and listen to Verses' audio and make bookmarks of Verses' cards.
   used:
     - thing: NLP (Gensim)
     - thing: Django
     - thing: Flask
+    - thing: React.js
     - thing: HTML/CSS
 
 - name: CS50 Web Projects
