@@ -1,16 +1,65 @@
+- name: Bulletin Board System (BBS)
+  url: https://github.com/ahr9n/bulletin-board-system
+  code: https://github.com/ahr9n/bulletin-board-system
+  description: 
+  - Developed a web-based Bulletin Board System (BBS) using Django and React (TypeScript).
+  - Implemented user registration and login with three user roles (administrators, moderators, and posters) and customizable profiles.
+  - Added the ability for moderators and administrators to ban users and lock threads.
+  - Created a home page that lists all available boards, a board index page that lists threads within a board, and a thread index page that lists posts within a thread.
+  - Supported Markdown syntax for formatting posts and added extra features such as board thread count, post count, and description as a card on hover.
+  - Used the REST Framework and PostgreSQL for the backend and TypeScript and Mobx for the frontend.
+  - Formatted code with Black and Prettier, and used Poetry for package management
+  used:
+    - thing: Django - Rest Framework
+    - thing: PostgreSQL
+    - thing: React (TypeScript - Mobx)
+    - thing: Black/Prettier
+    - thing: Poetry
+    
 - name: Quranic Search
   url: https://github.com/ahr9n/quranic-search-v2
   code: https://github.com/ahr9n/quranic-search-v2
   description: 
-    - Developed a sentence embedding model using set of methods, based on pre-trained Word2Vec/KeyedVectors models.
-    - Implemented RESTful APIs that allow users to search semantically or lexically in the Holy Quran, by a query of one or more words.
-    - Designed the user interface to search, display results, read and listen to Verses' audio and make bookmarks of Verses' cards.
+    - Developed a machine learning-based web application for retrieving information from the Holy Quran using NLP.
+    - Allows users to search in the Holy Quran by keywords or concepts and returns relevant verses based on meaning.
+    - Utilizes pre-trained Word2Vec models and builds a sentence embedding model using Word2Vec models.
+    - Preprocesses queries to seek the best comparison of vectors.
+    - Fast and low cost, making it an open-source alternative to using Transformers.
+    - Built a web application for it using Django and React.
+    - Designed to help Muslims and non-Muslims search for specific information in the Holy Quran.
   used:
     - thing: NLP (Gensim)
-    - thing: Django
+    - thing: Django - Rest Framework
     - thing: Flask
     - thing: React.js
     - thing: HTML/CSS
+
+- name: Django Rest (Registration - To Do)
+  url: https://github.com/ahr9n/django-rest-auth
+  code: https://github.com/ahr9n/django-rest-auth
+  description: 
+    - Developed Django Rest Framework project with registration and authentication APIs using django-rest-knox in main branch.
+    - Created additional endpoints in todos branch for a to-do list app, including creating, updating, deleting to-dos, and pagination for listing to-dos.
+    - Implemented proper authentication for all endpoints, ensuring that only users with valid tokens can access them.
+  used:
+    - thing: Django - Rest Framework
+    - thing: Poetry
+    - thing: HTML/CSS
+    - thing: Black
+
+- name: Worklogger
+  url: https://github.com/ahr9n/worklogger
+  code: https://github.com/ahr9n/worklogger
+  description: 
+    - Developed a website for logging and tracking hours worked.
+    - Allows users to input and view time logs for the day, as well as view total logged hours for the week and month.
+    - Administrators can add, edit, and delete projects and users, as well as modify and delete logged hours.
+    - Uses a calendar layout to select the day and highlights late logs in red text.
+  used:
+    - thing: Django
+    - thing: Poetry
+    - thing: HTML/CSS
+    - thing: Black
 
 - name: CS50 Web Projects
   url: 
@@ -26,7 +75,11 @@
 - name: Personal Website
   url: https://ahr9n.github.io
   code: https://github.com/ahr9n/ahr9n.github.io
-  description: My personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
+  description: 
+    - Developed a personal website using Brittany Chiang's template, with a focus on avoiding the use of unnecessary frameworks such as Bootstrap.
+    - Utilized Jekyll, a static site generator, along with Handlebars, a templating engine, to build the site.
+    - Implemented the website using a combination of SCSS for styling, JavaScript for interactivity, and Github Pages for hosting.
+    - Used Gulp, a JavaScript task runner, as a dependency to automate build processes and improve efficiency.  
   used:
     - thing: Jekyll
     - thing: Handlebars
@@ -40,7 +93,14 @@
   description: Common problems of dynamic programming methods and techniques, including prerequisites, for competitive programmers.
   used:
     - thing: C++
-    
+
+- name: Electrical Network Analyzer
+  url: https://github.com/ahr9n/electrical-network-analyzer
+  code: https://github.com/ahr9n/electrical-network-analyzer
+  description: A simple electrical network analyzer, BASED ON computer-aided design.
+  used:
+    - thing: Python3 (numpy)
+
 - name: In The Queue, Please!
   url: https://github.com/ahr9n/in-the-queue-please
   code: https://github.com/ahr9n/in-the-queue-please
@@ -58,13 +118,6 @@
     - thing: JavaScript
     - thing: HTML/CSS
 
-- name: Electrical Network Analyzer
-  url: https://github.com/ahr9n/electrical-network-analyzer
-  code: https://github.com/ahr9n/electrical-network-analyzer
-  description: A simple electrical network analyzer, BASED ON computer-aided design.
-  used:
-    - thing: Python3 (numpy)
-
 - name: Notify Me!
   url: https://github.com/ahr9n/notify-me
   code: https://github.com/ahr9n/notify-me
@@ -72,3 +125,14 @@
   used:
     - thing: JavaScript
     - thing: HTML
+
+- name: Differentiation Lab
+  url: https://github.com/M0D4/Differentiation-lab
+  code: https://github.com/M0D4/Differentiation-lab
+  description:
+    - A calculator that helps users solve first order and higher order derivatives of any function.
+    - Allows users to input any function and specify the order of derivative they want to calculate.
+    - Outputs the result of the derivative calculation.
+    - Uses Apache exp4j library and implemented using JAVA and GUI.
+  used:
+    - thing: Java (exp4j) - GUI
