@@ -3,6 +3,8 @@ languages:
   - item: Python
   - item: Java
   - item: JavaScript
+  - item: TypeScript
+  - item: Golang
   - item: HTML
   - item: CSS/SASS
   - item: SQL
@@ -10,13 +12,15 @@ languages:
 
 frameworks:
   - item: Django
+  - item: Flask
   - item: React
-  - item: React Native
 
 tools:
   - item: Bash
   - item: Git & Github
   - item: Linux
+  - item: Docker
+  - item: Kubernetes
   - item: Design Patterns
 
 calligraphy:
